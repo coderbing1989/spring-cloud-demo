@@ -7,11 +7,11 @@ import java.io.Serializable;
  */
 public class Movie implements Serializable{
 
-    Long id;
+    private Long id;
 
-    String movieName;
+    private String movieName;
 
-    Integer money;
+    private Integer money;
 
     public Long getId() {
         return id;
